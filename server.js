@@ -53,7 +53,7 @@ function addData (req, res){
     newEntry = { 
         temp: req.body.temp,
         date: req.body.date,
-        content: req.body.feel
+        content: req.body.content
         } 
     projectData = newEntry;
     //res.send(projectData);
