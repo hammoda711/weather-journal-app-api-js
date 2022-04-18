@@ -36,6 +36,6 @@ a weather-journal web app project, within udacity course.
 
 `npm install body-parser`
 
-`npm installcors`
+`npm install cors`
 
 `node server.js`
