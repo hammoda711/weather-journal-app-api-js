@@ -1,10 +1,11 @@
 // Global Variables 
 
 let d = new Date();
-let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
+let newDate = d.getMonth() + 1 + '.' + d.getDate() + '.' + d.getFullYear();
 
 const baseURL = 'https://api.openweathermap.org/data/2.5/weather?zip=';
-const apiKey = '&appid=ec16a42283fffe3bbe05d2c7fc7307fa&units=metric';
+const apiKey = '';
+//'<your_api_key>&units=imperial'
 
 const generateEl = document.getElementById('generate');
 
